@@ -1,0 +1,51 @@
+body {
+	
+	font-family:Segoe UI;
+	font-size: 14px;
+	color: #0000;
+
+}
+
+header{
+	background-color: #343434;
+}
+#sec-slides{
+	background-image: url(img/slider-1.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	color: #fff;
+	padding: 100px 0px;
+}
+#sec-slides h4{
+	font-size: 34px;
+	text-transform: uppercase;
+}
+#sec-slides h2{
+	font-size: 64px;
+	text-transform: uppercase
+}
+#sec-slides p{
+	font-size: 18px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+#sec-slides a{text-transform: uppercase;
+}
+#sec-slides .btn-warning{ 
+	background-color: #e7931a;
+}
+#sec-slides .btn-warning:hover{
+	background-color: #343434;
+}
+#sec-slides .btn-default{
+	background-color: transparent;
+	border-color: #e7931a;
+	border-width: 2px;
+	color: #fff;
+}	
+#sec-slides .btn-warning:hover{
+	background-color: #e7931a;
+}
+	
+	
