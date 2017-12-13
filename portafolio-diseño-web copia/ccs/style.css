@@ -9,12 +9,12 @@ header{
 }
 
 #header-hero{
-	<!--background-image: url(../img/TTperfil.jpg);
+	background-image: url(../img/TTperfil.jpg);
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: cover;
 	min-height: 662px;
-	padding-bottom: 400px;-->
+	padding-bottom: 400px;
 }
 header h1{
 	font-size: 100px;
@@ -76,6 +76,22 @@ header p{
 	opacity: 0;
 	transition: all 0.3s ease-in-out;
 }
+.art-ilus{
+	background-image: url(../img/logo_1.jpg);
+	background-position: center;
+	background-size: cover;
+	min-height: 200px;
+}
+.art-ilus:hover .vista-gallery{
+	background-color: rgba(0,0,0,0.70);
+	color: #fff;
+	opacity: 1;
+	padding-top: 7%;
+}
+.art-ilus .fa{
+	font-size: 45px;
+	color: #fff;
+}
 .art-fotografia{
 	background-image: url(../img/Muestra-2.jpg);
 	background-position: center;
@@ -93,7 +109,7 @@ header p{
 	color: #fff;
 }
 .art-Makeup{
-	background-image: url(../img/Makeup_3);
+	background-image: url(../img/Makeup_3.jpg);
 	background-position: center;
 	background-size: cover;
 	min-height: 200px;
@@ -104,7 +120,7 @@ header p{
 	opacity: 1;
 	padding-top: 7%;
 }
-.art-branding .fa{
+.art-Makeup .fa{
 	font-size: 45px;
 	color: #fff;
 }
@@ -157,7 +173,7 @@ header p{
 	color: #fff;
 }
 .art-sonoro{
-	background-image: url(../img/Locucion_1.jpg);
+	background-image: url(../img/Locucion_1.png);
 	background-position: center;
 	background-size: cover;
 	min-height: 200px;
